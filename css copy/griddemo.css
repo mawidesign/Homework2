@@ -1,0 +1,54 @@
+
+
+
+body{
+font-family: helvetica;
+
+}
+
+
+
+.grid-demo div{
+
+  border:2px solid #d4af37;
+padding: 20px;
+height: 140px;
+width: 113px;
+display: flex;
+justify-content: center;
+align-items: center;
+    background-color: #fbf1de;
+
+}
+
+
+
+h1 {
+  text-align: center;
+  color: #fbf1de;
+  font-family: 'Playfair Display', serif;
+font-size: 36px;
+}
+
+h2 {
+  text-align: center;
+  color: #fbf1de;
+  font-family: 'Parisienne', cursive;
+font-size: 25px;
+margin-top: -25px;
+}
+
+.grid-demo section{
+
+   display: inline-grid;
+   grid-template-rows: 100px 100px 100px;
+   grid-template-columns: 100px 100px 100px;
+   grid-gap: 110px;
+       padding-left: 330px;
+
+}
+
+img{
+    height: 154px;
+
+}
